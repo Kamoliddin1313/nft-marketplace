@@ -6,11 +6,15 @@ export default {
       fontFamily: {
         "space-mono":["Space Mono","monospace"],
         "work-sans":["Work Sans","sans-serif"]
-      },
-      colors: {
-        "body-color": "#2B2B2B",
       }
     },
+    screens: {
+      '2xl': '1536px',
+      'xl': '1280px',
+      'lg': '1024px',
+      'md': '768px',
+      'sm': '640px',
+    }
   },
   plugins: [],
 };
