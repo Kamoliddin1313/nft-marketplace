@@ -8,14 +8,14 @@ import {
 const Home = () => {
   return (
     <div className="not-italic text-white">
-      <div className="mx-auto max-w-[1400px] px-[105px] mv:p-[60px] md:p-[105px] md:px-[50px] lg:py-[80px] xl:px-[150px]">
-        <div className="flex justify-between gap-[60px] mv:grid mv:grid-cols-1 sm:gap-[30px] md:grid-cols-2 md:gap-[20px] xl:gap-[100px]">
-          <div className="mv:text-center md:text-left xl:w-3/4">
-            <h1 className="grid font-work-sans font-semibold capitalize lg:text-[52px] mv:text-[28px] md:text-[38px]	xl:text-[67px]">
+      <div className="mx-auto max-w-[1400px] xl:px-[115px] mv:p-[60px] md:p-[105px] md:px-[50px] lg:py-[80px]">
+        <div className="flex justify-between gap-[60px] mv:grid mv:grid-cols-1 sm:gap-[30px] md:grid-cols-2 md:gap-[20px] xl:gap-[50px]">
+          <div className="mv:text-center md:text-left xl:w-full">
+            <h1 className="grid font-work-sans font-semibold capitalize lg:text-[52px] mv:text-[28px] md:text-[38px]	xl:text-[52px]">
               Discover digital art & Collect NFTs
             </h1>
 
-            <p className="font-work-sans text-[16px] font-semibold capitalize mv:text-[16px] sm:my-[20px] sm:text-[12px] md:my-[10px] md:text-[14px] lg:text-[16px] xl:text-[15px]">
+            <p className="font-work-sans text-[16px] font-semibold capitalize mv:text-[16px] sm:my-[20px] sm:text-[12px] md:my-[10px] md:text-[14px] lg:text-[16px] xl:text-[22px]">
               NFT marketplace UI created with Anima for Figma. Collect, buy and
               sell art from more than 20k NFT artists.
             </p>
@@ -55,7 +55,7 @@ const Home = () => {
             </div>
           </div>
 
-          <div className="w-full rounded-[24px] bg-[#3B3B3B] sm:mx-auto sm:w-4/5 md:w-full xl:w-3/5">
+          <div className="xl:w-full rounded-[24px] bg-[#3B3B3B] sm:mx-auto sm:w-4/5 md:w-full">
             <img
               src="./src/assets/img/imagePlaceholder.png"
               alt="img"
@@ -239,7 +239,7 @@ const Home = () => {
       </div>
 
       <div className="relative mx-auto h-[640px] max-w-[1400px] bg-[url('./src/assets/img/bg-img.png')]">
-        <div className="absolute bottom-0 flex w-full items-end justify-between px-[105px] py-[60px] not-italic mv:grid mv:grid-cols-1 mv:p-[50px] sm:grid-cols-2 sm:p-[60px] md:p-[50px] xl:px-[150px]">
+        <div className="absolute bottom-0 flex w-full items-end justify-between xl:px-[115px] py-[60px] not-italic mv:grid mv:grid-cols-1 mv:p-[50px] sm:grid-cols-2 sm:p-[60px] md:p-[50px]">
           <div className="mv:mx-auto mv:text-center">
             <button className="flex gap-[10px] rounded-[20px] bg-[#3B3B3B] px-[20px] py-[10px]">
               <img
@@ -305,7 +305,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="mx-auto max-w-[1400px] px-[105px] py-[80px] mv:p-[50px] sm:p-[60px] md:p-[50px] xl:px-[150px]">
+      <div className="mx-auto max-w-[1400px] xl:px-[115px] py-[80px] mv:p-[50px] sm:p-[60px] md:p-[50px]">
         <div className="mb-[80px]">
           <h2 className="font-work-sans font-semibold leading-[45px] mv:text-center mv:text-[26px] sm:text-[28px] md:text-left	lg:text-[38px]">
             How it works
@@ -353,25 +353,25 @@ const Home = () => {
               Join our weekly digest
             </h2>
 
-            <p className="mt-[10px] font-normal capitalize mv:text-[14px] sm:text-[16px] md:text-[16px] lg:text-[18px] xl:text-[22px]">
+            <p className="mt-[10px] font-normal capitalize xl:mt-[10px] mv:text-[14px] sm:text-[16px] md:text-[16px] lg:text-[18px] xl:text-[22px]">
               Get exclusive promotions & updates straight to your inbox.
             </p>
 
             <form
               action="/"
-              className="flex justify-between rounded-[20px] lg:grid-cols-2 lg:bg-white mv:mt-[20px] sm:mt-[30px] md:grid md:grid-cols-1 md:bg-transparent lg:mt-[80px]"
+              className="flex justify-between rounded-[20px] lg:grid-cols-2 lg:bg-white mv:mt-[20px] sm:mt-[30px] md:grid md:grid-cols-1 md:bg-transparent xl:mt-[40px] lg:mt-[80px]"
             >
               <input
                 type="text"
                 placeholder="Enter your email here"
-                className=" rounded-l-[20px] text-[#2B2B2B] outline-0 mv:px-[20px] mv:py-[8px] sm:py-[10px] sm:text-[14px] md:mb-[16px] lg:m-[5px] md:w-full md:rounded-[20px] md:py-[10px] md:text-[16px] lg:py-[12px] xl:py-[16px]"
+                className="rounded-l-[20px] xl:m-0 text-[#2B2B2B] outline-0 mv:px-[20px] mv:py-[8px] sm:py-[10px] sm:text-[14px] md:mb-[16px] lg:m-[5px] md:w-full md:rounded-[20px] md:py-[10px] md:text-[16px] lg:py-[12px] xl:py-[10px]"
               />
 
-              <button className="flex items-center justify-center rounded-[20px] bg-[#A259FF] mv:gap-2 sm:text-[14px] md:w-full md:gap-3 lg:py-0 md:py-[10px] md:text-[16px] ">
+              <button className="flex items-center justify-center rounded-[20px] bg-[#A259FF] mv:gap-2 xl:py-0 sm:text-[14px] md:w-full md:gap-3 lg:py-0 md:py-[10px] md:text-[16px] ">
                 <img
                   src="./src/assets/icons/envelopeSimple.png"
                   alt="envelopeSimple"
-                  className="sm:w-[18px]"
+                  className="sm:w-[18px] xl:w-[22px]"
                 />
                 Subscribe
               </button>

@@ -2,19 +2,19 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="py-[40px] sm:px-[60px] mv:px-[50px] max-w-[1400px] mx-auto bg-[#3B3B3B] px-[105px] xl:px-[150px]">
+    <footer className="py-[40px] sm:px-[60px] lg:py-[40px] mv:px-[50px] max-w-[1400px] mx-auto bg-[#3B3B3B] px-[105px] xl:px-[115px]">
       <div className="flex w-full lg:w-full mv:grid mv:grid-cols-1 lg:grid-cols-2 lg:gap-0">
 
-        <div className="flex lg:grid-cols-2 bg-yellow-700 lg:gap-[50px] justify-between mv:grid mv:grid-cols-1 mv:w-full">
+        <div className="flex lg:grid-cols-2 lg:gap-[50px] justify-between mv:grid mv:grid-cols-1 mv:w-full">
 
           <div className="text-[#CCC] mv:w-full">
 
-            <div className="flex items-center bg-red-800 justify-between mv:w-full">
+            <div className="flex items-center justify-between mv:w-full">
               <img
                 src="./src/assets/icons/storefront.png"
-                className="xl:h-[32px] bg-yellow-500 xl:w-[32px] lg:h-[28px] lg:w-[28px]"
+                className="xl:h-[32px] xl:w-[32px] lg:h-[28px] lg:w-[28px]"
               />
-              <p className="px-[12px] bg-green-800 mv:w-full mv:text-[18px] md:text-[22px] py-[8px] font-space-mono xl:text-[22px] lg:text-[18px] font-semibold not-italic text-white">
+              <p className="px-[12px] mv:w-full mv:text-[18px] md:text-[22px] py-[8px] font-space-mono xl:text-[22px] lg:text-[18px] font-semibold not-italic text-white">
                 NFT Marketplace
               </p>
             </div>
@@ -44,7 +44,7 @@ const Footer = () => {
 
           </div>
 
-          <div className="text-[#CCC] lg:pl-[30px] bg-red-600  mv:w-full">
+          <div className="text-[#CCC] lg:pl-[30px] mv:w-full">
             <p className="py-[8px] mv:my-[15px] md:text-[22px] mv:text-[18px] font-space-mono xl:text-[22px] lg:text-[18px] font-semibold not-italic text-white">
               Explore
             </p>
@@ -75,7 +75,7 @@ const Footer = () => {
 
           <form className="mt-[20px] lg:w-4/5 md:grid-cols-2 md:w-3/5 md:rounded-[20px] md:bg-white mv:w-full w-full box-border mv:grid mv:grid-cols-1 mv:bg-transparent	 flex rounded-[20px] bg-white">
             <input
-              className="rounded-[20px] mv:w-full xl:py-[16px] md:py-[10px] md:text-[18px] sm:text-[14px] lg:py-[12px] mv:px-[20px] sm:py-[10px] mv:py-[6px] outline-none"
+              className="rounded-[20px] mv:w-full xl:py-[10px] md:py-[10px] md:text-[18px] sm:text-[14px] lg:py-[12px] mv:px-[20px] sm:py-[10px] mv:py-[6px] outline-none"
               type="text"
               placeholder="Enter your email here Subscribe"
             />
