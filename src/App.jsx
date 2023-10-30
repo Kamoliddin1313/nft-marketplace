@@ -1,25 +1,32 @@
 import { Route, Routes } from "react-router-dom";
-import HomePage from "./pages/HomePage";
-import CreateAccountPage from "./pages/CreateAccountPage";
-import ConnectWalletPage from "./pages/ConnectWalletPage";
-import ArtistPage from "./pages/ArtistPage";
+import Home from "./pages/Home";
+import CreateAccount from "./pages/CreateAccount";
+import ConnectWallet from "./pages/ConnectWallet";
+import Artist from "./pages/Artist";
 import Mainlayout from "./layout/Mainlayout";
-import MarketPlacePage from "./pages/MarketPlacePage";
-import NFTPage from "./pages/NFTPage";
-import RankingsPage from "./pages/RankingsPage";
+import MarketPlace from "./pages/MarketPlace";
+import NFT from "./pages/NFT";
+import Rankings from "./pages/Rankings";
 
 function App() {
   return (
     <Routes>
       <Route path="/" element={<Mainlayout />}>
-        <Route index element={<HomePage />} />
-        <Route path="/marketplacepage" element={<MarketPlacePage />} />
-        <Route path="/nftpage" element={<NFTPage />} />
-        <Route path="/rankingspage" element={<RankingsPage />} />
-        <Route path="/createaccountpage" element={<CreateAccountPage />} />
-        <Route path="/connectwalletpage" element={<ConnectWalletPage />} />
-        <Route path="/artistpage" element={<ArtistPage />} />
-        <Route path="*" element={<h1>no data</h1>} />
+        <Route index path="/home" element={<Home />} />
+        <Route path="/marketplace" element={<MarketPlace />} />
+        <Route path="/nft" element={<NFT />} />
+        <Route path="/rankings" element={<Rankings />} />
+        <Route path="/createaccount" element={<CreateAccount />} />
+        <Route path="/connectwallet" element={<ConnectWallet />} />
+        <Route path="/artist" element={<Artist />} />
+        <Route
+          path="*"
+          element={
+            <h1 className="mx-auto text-center font-work-sans text-[198px] text-red-700">
+              X
+            </h1>
+          }
+        />
       </Route>
     </Routes>
   );

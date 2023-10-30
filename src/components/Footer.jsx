@@ -1,92 +1,101 @@
 import React from "react";
 
-const FooterPage = () => {
+const Footer = () => {
   return (
-    <footer className="px-[100px] py-[40px]">
-      <div className="flex w-full">
-        <div className="flex w-3/5 justify-between">
-          <div className="w-3/5 text-[#CCC]">
-            <div className="flex items-center">
+    <footer className="py-[40px] sm:px-[60px] mv:px-[50px] max-w-[1400px] mx-auto bg-[#3B3B3B] px-[105px] xl:px-[150px]">
+      <div className="flex w-full lg:w-full mv:grid mv:grid-cols-1 lg:grid-cols-2 lg:gap-0">
+
+        <div className="flex lg:grid-cols-2 bg-yellow-700 lg:gap-[50px] justify-between mv:grid mv:grid-cols-1 mv:w-full">
+
+          <div className="text-[#CCC] mv:w-full">
+
+            <div className="flex items-center bg-red-800 justify-between mv:w-full">
               <img
                 src="./src/assets/icons/storefront.png"
-                className="h-[32px] w-[32px]"
+                className="xl:h-[32px] bg-yellow-500 xl:w-[32px] lg:h-[28px] lg:w-[28px]"
               />
-              <p className="px-[12px] py-[8px] font-space-mono text-[22px] font-semibold not-italic text-white">
+              <p className="px-[12px] bg-green-800 mv:w-full mv:text-[18px] md:text-[22px] py-[8px] font-space-mono xl:text-[22px] lg:text-[18px] font-semibold not-italic text-white">
                 NFT Marketplace
               </p>
             </div>
 
-            <p className="mt-[20px] w-3/5 font-work-sans text-[16px] font-normal	not-italic">
+            <p className="xl:mt-[20px] lg:mt-[15px] mv:w-full font-work-sans xl:text-[16px] lg:text-[14px] mv:my-[10px] sm:my-[20px] font-normal	not-italic">
               NFT marketplace UI created with Anima for Figma.
             </p>
 
-            <p className="mt-[15px] font-work-sans text-[16px] font-normal	not-italic">
+            <p className="xl:mt-[15px] lg:mt-[10px] font-work-sans xl:text-[16px] lg:text-[14px] font-normal	not-italic">
               Join our community
             </p>
 
-            <div className="mt-[10px] flex items-center gap-[10px]">
+            <div className="mt-[10px] flex items-center sm:mt-[20px] lg:gap-[10px] mv:gap-[20px]">
               <a href="#">
-                <img src="./src/assets/icons/discordLogo.png" />
+                <img src="./src/assets/icons/discordLogo.png" className="sm:w-[28px] mv:w-[28px]"/>
               </a>
               <a href="#">
-                <img src="./src/assets/icons/youtubeLogo.png" />
+                <img src="./src/assets/icons/youtubeLogo.png" className="sm:w-[28px] mv:w-[28px]"/>
               </a>
               <a href="#">
-                <img src="./src/assets/icons/twitterLogo.png" />
+                <img src="./src/assets/icons/twitterLogo.png" className="sm:w-[28px] mv:w-[28px]"/>
               </a>
               <a href="#">
-                <img src="./src/assets/icons/instagramLogo.png" />
+                <img src="./src/assets/icons/instagramLogo.png" className="sm:w-[28px] mv:w-[28px]"/>
               </a>
             </div>
+
           </div>
 
-          <div className="w-2/5 text-[#CCC]">
-            <p className="py-[8px] font-space-mono text-[22px] font-semibold not-italic text-white">
+          <div className="text-[#CCC] lg:pl-[30px] bg-red-600  mv:w-full">
+            <p className="py-[8px] mv:my-[15px] md:text-[22px] mv:text-[18px] font-space-mono xl:text-[22px] lg:text-[18px] font-semibold not-italic text-white">
               Explore
             </p>
 
-            <p className="mt-[20px] w-1/2 font-work-sans text-[16px] font-normal	not-italic">
+            <p className="xl:mt-[20px] sm:my-[20px] lg:mt-[15px] font-work-sans xl:text-[16px] lg:text-[14px] font-normal	not-italic">
               Marketplace
             </p>
 
-            <p className="mt-[15px] font-work-sans text-[16px] font-normal	not-italic">
+            <p className="xl:mt-[15px] sm:my-[20px] lg:mt-[10px] font-work-sans xl:text-[16px] lg:text-[14px] font-normal	not-italic">
               Rankings
             </p>
 
-            <p className="mt-[15px] font-work-sans text-[16px] font-normal	not-italic">
+            <p className="xl:mt-[15px] md:my-[20px] lg:mt-[10px] font-work-sans xl:text-[16px] lg:text-[14px] font-normal	not-italic">
               Connect a wallet
             </p>
           </div>
+
         </div>
 
-        <div className="w-2/5 text-[#CCC]">
-          <p className="py-[8px] font-space-mono text-[22px] font-semibold not-italic text-white">
+        <div className="mv:w-full lg:pl-[50px] text-[#CCC]">
+          <p className="py-[8px] md:text-[22px] mv:my-[15px] mv:text-[18px] font-space-mono xl:text-[22px] lg:text-[18px] font-semibold not-italic text-white">
             Join our weekly digest
           </p>
 
-          <p className="mt-[20px] w-1/2 font-work-sans text-[16px] font-normal	not-italic">
+          <p className="xl:mt-[20px] lg:mt-[15px] font-work-sans sm:my-[20px] xl:text-[16px] lg:text-[14px] font-normal	not-italic">
             Get exclusive promotions & updates straight to your inbox.
           </p>
 
-          <form className="mt-[20px] flex justify-between rounded-[20px] bg-white">
+          <form className="mt-[20px] lg:w-4/5 md:grid-cols-2 md:w-3/5 md:rounded-[20px] md:bg-white mv:w-full w-full box-border mv:grid mv:grid-cols-1 mv:bg-transparent	 flex rounded-[20px] bg-white">
             <input
-              className="rounded-[20px] px-[20px] py-[16px]	 outline-none"
+              className="rounded-[20px] mv:w-full xl:py-[16px] md:py-[10px] md:text-[18px] sm:text-[14px] lg:py-[12px] mv:px-[20px] sm:py-[10px] mv:py-[6px] outline-none"
               type="text"
               placeholder="Enter your email here Subscribe"
             />
-            <button className="rounded-[20px] bg-[#A259FF] px-[50px] text-white">
+            <button className="rounded-[20px] mv:w-full md:py-[10px] md:m-0 px-0 md:text-[18px] sm:text-[16px] mv:px-[20px] sm:py-[10px] bg-[#A259FF] mv:mt-[20px] mv:py-[6px] text-white">
               Subscribe
             </button>
           </form>
+
         </div>
+
       </div>
 
       <div className="my-[35px] h-[1px] w-full bg-[#858584]"></div>
-      <p className=" font-work-sans text-[14px] font-normal not-italic	text-[#CCC]">
+
+      <p className=" font-work-sans mv:text-[14px] sm:text-[16px] font-normal not-italic	text-[#CCC]">
         Ⓒ NFT Market. Use this template freely.
       </p>
+
     </footer>
   );
 };
 
-export default FooterPage;
+export default Footer;

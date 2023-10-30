@@ -5,6 +5,7 @@ export const dataimg = [
     imgsBig: "./src/assets/img/dogImg.png",
     imgsBig1: "./src/assets/img/dogImg.png",
     title: "1025+",
+    jkfsf:["xgfd","werewr","8858845"]
   },
   {
     id: 2,
@@ -98,16 +99,16 @@ export const dataUserImg = [
 ];
 
 export const userImg = [
-  { id: 1, img: "./src/assets/img/avatarImg1.png", titleName: "art" },
-  { id: 2, img: "./src/assets/img/avatarImg2.png", titleName: "Collectibles" },
-  { id: 3, img: "./src/assets/img/avatarImg3.png", titleName: "Music" },
-  { id: 4, img: "./src/assets/img/avatarImg4.png", titleName: "Photography" },
-  { id: 5, img: "./src/assets/img/avatarImg5.png", titleName: "Video" },
-  { id: 6, img: "./src/assets/img/avatarImg6.png", titleName: "Utility" },
-  { id: 7, img: "./src/assets/img/avatarImg7.png", titleName: "Sport" },
+  { id: 1, img: "./src/assets/img/avatarImg1.png",top_img:"./src/assets/img/paint-brush.png", titleName: "art" },
+  { id: 2, img: "./src/assets/img/avatarImg2.png",top_img:"./src/assets/img/swatches.png", titleName: "Collectibles" },
+  { id: 3, img: "./src/assets/img/avatarImg3.png",top_img:"./src/assets/img/music-notes.png", titleName: "Music" },
+  { id: 4, img: "./src/assets/img/avatarImg4.png",top_img:"./src/assets/img/camera.png", titleName: "Photography" },
+  { id: 5, img: "./src/assets/img/avatarImg5.png",top_img:"./src/assets/img/video-camera.png", titleName: "Video" },
+  { id: 6, img: "./src/assets/img/avatarImg6.png",top_img:"./src/assets/img/magic-wand.png", titleName: "Utility" },
+  { id: 7, img: "./src/assets/img/avatarImg7.png",top_img:"./src/assets/img/basketball.png", titleName: "Sport" },
   {
     id: 8,
-    img: "./src/assets/img/avatarImg8.png",
+    img: "./src/assets/img/avatarImg8.png",top_img:"./src/assets/img/planet.png",
     titleName: "Virtual Worlds",
   },
 ];
