@@ -8,147 +8,158 @@ import {
 const Home = () => {
   return (
     <div className="not-italic text-white">
-      <div className="mx-auto max-w-[1400px] xl:px-[115px] mv:p-[60px] md:p-[105px] md:px-[50px] lg:py-[80px]">
-        <div className="flex justify-between gap-[60px] mv:grid mv:grid-cols-1 sm:gap-[30px] md:grid-cols-2 md:gap-[20px] xl:gap-[50px]">
-          <div className="mv:text-center md:text-left xl:w-full">
-            <h1 className="grid font-work-sans font-semibold capitalize lg:text-[52px] mv:text-[28px] md:text-[38px]	xl:text-[52px]">
+      <section className="px-[115px] lg:px-[70px] md:px-[30px] sm:px-[60px]">
+        <div className="grid grid-cols-2 sm:grid-cols-1  gap-[30px] py-[80px] lg:py-[40px]">
+          <div className="sm:mx-auto sm:text-center">
+            <h1 className="grid font-work-sans text-[67px] font-semibold capitalize xl:text-[52px] lg:text-[38px] md:text-[32px]">
               Discover digital art & Collect NFTs
             </h1>
 
-            <p className="font-work-sans text-[16px] font-semibold capitalize mv:text-[16px] sm:my-[20px] sm:text-[12px] md:my-[10px] md:text-[14px] lg:text-[16px] xl:text-[22px]">
+            <p className="font-work-sans text-[22px] font-normal capitalize xl:text-[18px] lg:text-[16px] md:text-[14px]">
               NFT marketplace UI created with Anima for Figma. Collect, buy and
               sell art from more than 20k NFT artists.
             </p>
 
-            <button className="my-[20px] flex h-[60px] items-center justify-center gap-3 rounded-[20px] bg-[#A259FF] px-[50px] mv:mx-auto mv:my-[45px] mv:h-[38px] mv:px-[25px] sm:h-[45px] md:my-[15px] md:ml-0 lg:text-[16px] md:text-[14px] lg:px-[30px] xl:px-[35px]">
+            <button className="my-[20px] sm:mx-auto flex items-center justify-center gap-3 rounded-[20px] border-2 border-[#A259FF] bg-[#A259FF] px-[50px] py-[15px] hover:border-white hover:bg-green-600 xl:py-3 lg:px-[30px] lg:py-[10px] md:py-[8px]">
               <img src="./src/assets/img/rocketLaunch.png" alt="btnImg" /> Get
               Started
             </button>
 
-            <div className="grid grid-cols-3 gap-[20px] md:mt-[20px]">
+            <div className="grid grid-cols-3 gap-[20px]">
               <div>
-                <p className="font-space-mono text-[28px] font-bold mv:text-[18px] md:text-[20px] lg:text-[22px] xl:text-[24px]">
+                <p className="font-space-mono text-[28px] font-bold xl:text-[24px] lg:text-[20px]">
                   240k+
                 </p>
-                <p className="font-work-sans text-[24px] font-normal mv:text-[14px] sm:my-[5px] md:text-[16px] lg:text-[18px] xl:text-[20px]">
+                <p className="font-work-sans text-[24px] font-normal xl:text-[20px] lg:text-[16px] md:text-[14px]">
                   Total Sale
                 </p>
               </div>
 
               <div>
-                <p className="font-space-mono text-[28px] font-bold mv:text-[18px] md:text-[20px]  lg:text-[22px]	xl:text-[24px]">
+                <p className="font-space-mono text-[28px] font-bold xl:text-[24px] lg:text-[20px]">
                   100k+
                 </p>
-                <p className="font-work-sans text-[24px] font-normal  mv:text-[14px] sm:my-[5px]  md:text-[16px] lg:text-[18px] xl:text-[20px]">
+                <p className="font-work-sans text-[24px] font-normal xl:text-[20px] lg:text-[16px] md:text-[14px]">
                   Auctions
                 </p>
               </div>
 
               <div>
-                <p className="font-space-mono text-[28px] font-bold mv:text-[18px] md:text-[20px]  lg:text-[22px]	xl:text-[24px]">
+                <p className="font-space-mono text-[28px] font-bold xl:text-[24px] lg:text-[20px]">
                   240k+
                 </p>
-                <p className="font-work-sans text-[24px] font-normal  mv:text-[14px] sm:my-[5px]  md:text-[16px] lg:text-[18px] xl:text-[20px]">
+                <p className="font-work-sans text-[24px] font-normal xl:text-[20px] lg:text-[16px] md:text-[14px]">
                   Artists
                 </p>
               </div>
             </div>
           </div>
 
-          <div className="xl:w-full rounded-[24px] bg-[#3B3B3B] sm:mx-auto sm:w-4/5 md:w-full">
+          <div className="h-[540px] rounded-[24px] bg-[#3B3B3B] xl:h-[460px] lg:h-[360px]">
             <img
               src="./src/assets/img/imagePlaceholder.png"
               alt="img"
-              className="w-full"
+              className="h-[80%] w-full xl:h-[75%] lg:h-[70%]"
             />
 
-              <p className="pl-[20px] pt-[20px] sm:pt-[10px] xl:pt-[10px]">
-                Space Walking
-              </p>
+            <div className="p-[20px] font-work-sans capitalize not-italic">
+              <p className="text-[22px] font-semibold	">Space Walking</p>
 
-              <div className="flex gap-3 p-[20px] sm:pt-[10px] lg:pb-[20px]">
+              <div className="mt-[10px] flex gap-3 font-normal">
                 <img src="./src/assets/img/avatar.png" alt="img" />
                 <p>Animakid</p>
               </div>
+            </div>
           </div>
         </div>
 
-        <div className="my-[80px] mv:text-center md:text-left">
-          <h2 className="font-work-sans text-[38px] font-semibold leading-[45px] lg:text-[38px] mv:text-[28px]	md:text-[28px]">
+        <div className="my-[80px] md:my-[50px]">
+          <h2 className="mb-[10px] font-work-sans sm:text-center text-[38px] font-semibold leading-[45px] lg:text-[32px]">
             Trending Collection
           </h2>
 
-          <p className="mt-[20px] font-work-sans font-semibold capitalize mv:text-[16px]">
+          <p className="font-work-sans sm:text-center text-[22px] font-semibold capitalize lg:text-[18px]">
             Checkout our weekly updated trending collection.
           </p>
 
-          <div className="mt-[60px] grid w-full lg:grid-cols-3 gap-[30px] mv:grid-cols-1 sm:grid-cols-2 xl:gap-[50px]">
+          <div className="mt-[60px] grid w-full sm:grid-cols-1 grid-cols-3 gap-[30px] lg:grid-cols-2">
             {dataimg.map((imag) => (
               <div key={imag.id} className="w-full">
                 <div className="w-full">
                   <img src={imag.img} className="w-full rounded-[20px]" />
                 </div>
-                <div className="mt-[15px] grid grid-cols-3 gap-[15px] xl:mt-[25px] xl:gap-[20px]">
+
+                <div className="mt-[15px] grid grid-cols-3 gap-[15px]">
                   <img src={imag.imgsBig} className="rounded-[20px]" />
                   <img src={imag.imgsBig1} className="rounded-[20px]" />
-                  <p className="flex items-center justify-center rounded-[20px] bg-[#A259FF] font-space-mono text-[22px] font-bold leading-[35px] sm:text-[16px] md:text-[22px] lg:text-[16px]">
+                  <p className="flex items-center justify-center rounded-[20px] bg-[#A259FF] font-space-mono text-[22px] font-bold leading-[35px] xl:text-[18px]">
                     {imag.title}
                   </p>
+                </div>
+
+                <div className="mt-[15px] font-work-sans capitalize">
+                  <p className="text-[22px] font-semibold xl:text-[20px] md:text-[18px]">
+                    {imag.name}
+                  </p>
+                  <div className="mt-[10px] flex items-center gap-3">
+                    <img
+                      src={imag.smoll_img}
+                      className="w-[30px]"
+                      alt="smoll_img"
+                    />
+                    <span className="font-normal md:text-[14px]">
+                      {imag.smoll_img_name}
+                    </span>
+                  </div>
                 </div>
               </div>
             ))}
           </div>
         </div>
 
-        <div className="flex items-center justify-between mv:grid mv:grid-cols-1 md:grid-cols-2">
+        <div className="flex items-center justify-between font-work-sans capitalize md:grid md:grid-cols-1">
           <div>
-            <h2 className="font-work-sans font-semibold leading-[45px] mv:text-center mv:text-[28px] md:text-left	lg:text-[38px]">
+            <h2 className="text-[38px] sm:text-center font-semibold leading-[45px] lg:text-[32px]">
               Trending Collection
             </h2>
 
-            <p className="mt-[20px] font-work-sans font-semibold capitalize mv:text-center  mv:text-[16px] md:text-left">
+            <p className="mt-[10px] sm:text-center font-semibold lg:text-[16px]">
               Checkout our weekly updated trending collection.
             </p>
           </div>
 
-          <div>
-            <button className="my-[30px] flex items-center justify-center gap-3 rounded-[20px] border-[2px] border-solid border-[#A259FF] mv:mx-auto mv:h-[42px] sm:px-[25px] md:mr-0 md:h-[48px] md:px-[50px] lg:px-[25px] xl:h-[60px] xl:px-[30px]">
-              <img src="./src/assets/img/rocketLaunch.png" alt="btnImg" /> Get
-              View Rankings
-            </button>
-          </div>
+          <button className="my-[30px] sm:mx-auto flex items-center justify-center gap-3 rounded-[20px] border-[2px] sm:w-3/5 border-solid border-[#A259FF] px-[50px] py-[15px] text-[16px] font-semibold hover:border-white hover:bg-green-600 lg:px-[20px] lg:py-[10px] md:w-2/5">
+            <img src="./src/assets/img/rocketLaunch.png" alt="btnImg" />
+            View Rankings
+          </button>
         </div>
 
-        <div className="grid lg:grid-cols-4 gap-[30px] mv:grid-cols-2 sm:my-[40px] sm:pb-[30px] md:my-[60px] md:pb-[60px]">
+        <div className="mt-[60px] grid grid-cols-4 gap-[30px] capitalize sm:grid-cols-1 lg:grid-cols-2">
           {dataUserImg.map((value) => (
             <div
               key={value.id}
-              className="relative rounded-[20px] bg-[#3B3B3B] capitalize mv:p-[15px] sm:p-[25px] md:p-[20px] xl:p-[20px]"
+              className="relative rounded-[20px] bg-[#3B3B3B] p-[20px] font-work-sans xl:p-[15px] lg:p-[25px]"
             >
-              <p className="absolute flex h-[25px] w-[25px] items-center justify-center rounded-full bg-[#2B2B2B] font-space-mono text-[16px] font-normal text-[#858584] mv:text-[13px] xl:text-[14px]">
+              <p className="absolute flex h-[25px] w-[25px] items-center justify-center rounded-full bg-[#2B2B2B] font-space-mono text-[16px] font-normal text-[#858584] xl:text-[14px] mv:text-[13px]">
                 {value.id}
               </p>
 
-              <div className="md:flex md:items-center lg:grid lg:gap-1 lg:grid-rows-2 md:gap-[20px]">
+              <div className="font-work-sans">
                 <img
                   src={value.img}
                   alt="user img"
-                  className="mx-auto mv:w-[70px] md:m-0 lg:mx-auto"
+                  className="mx-auto xl:w-3/5"
                 />
 
-                <div>
-                  <p className="mb-[5px] lg:text-center text-center font-work-sans text-[22px] font-semibold mv:text-[16px] md:text-left md:text-[22px] xl:text-[20px]">
+                <div className="mt-[20px] text-center">
+                  <p className="text-[22px] font-semibold xl:text-[18px] lg:text-[20px]">
                     {value.name}
                   </p>
 
-                  <div className="text-[16px] lg:text-center flex:md grid items-center justify-center font-normal mv:text-center sm:grid-cols-2 sm:text-center md:justify-between md:gap-0 lg:gap-[10px]">
-                    <p className="font-work-sans lg:text-[13px] text-[#858584] mv:text-[14px] md:text-[15px] xl:text-[15px]">
-                      Total Sales:
-                    </p>
+                  <div className="mt-[5px] flex items-center justify-center gap-[10px] text-[16px] font-normal xl:text-[12px] lg:text-[16px]">
+                    <p className="text-[#858584]">Total Sales:</p>
 
-                    <p className="font-space-mono lg:text-[13px] mv:text-[14px] md:text-[15px] lg:mt-0 xl:text-[15px]">
-                      {value.userTitle}
-                    </p>
+                    <p className="font-space-mono">{value.userTitle}</p>
                   </div>
                 </div>
               </div>
@@ -156,28 +167,25 @@ const Home = () => {
           ))}
         </div>
 
-        <div className="mt-[80px] sm:mt-[20px] lg:px-0 md:px-[50px] xl:mt-[40px]">
-          <h2 className="font-work-sans font-semibold leading-[45px] mv:text-center mv:text-[28px] md:text-left md:text-[32px]	lg:text-[38px]">
+        <div className="my-[80px] capitalize">
+          <h2 className="font-work-sans sm:text-center text-[38px] font-semibold leading-[45px] lg:text-[32px]">
             Browse Categories
           </h2>
 
-          <div className="mb-[80px] grid gap-[30px] lg:grid-cols-4 mv:mt-[15px] mv:grid-cols-2 sm:mt-[40px] md:mt-[60px] md:grid md:grid-cols-2">
+          <div className="grid grid-cols-4 sm:grid-cols-1 gap-[30px] pt-[60px] lg:grid-cols-2">
             {userImg.map((value) => (
               <div key={value.id} className="rounded-[24px] bg-[#3B3B3B]">
                 <div className="relative overflow-hidden rounded-t-[24px]">
                   <img
                     src={value.top_img}
                     alt="imgtop"
-                    className="absolute inset-[30%] z-30 mv:w-[80px] sm:inset-[33%] sm:w-[100px] md:w-[90px] lg:w-[75px]"
+                    className="absolute inset-[30%] z-30 xl:w-2/5"
                   />
 
-                  <img
-                    src={value.img}
-                    className="blur-[7px] sm:w-full md:w-full"
-                  />
+                  <img src={value.img} className="w-full blur-[7px]" />
                 </div>
 
-                <p className="font-work-sans lg:text-left capitalize leading-[31px] mv:px-[15px] mv:py-[10px] mv:text-center sm:py-[10px] sm:text-center md:px-[20px] md:text-left lg:p-[15px] lg:text-[16px] xl:px-[20px] xl:pb-[12px] xl:pt-[18px] xl:text-[18px]">
+                <p className="px-[30px] py-[20px] font-work-sans text-[22px] font-semibold capitalize leading-[31px] xl:px-[20px] xl:py-[15px] xl:text-[18px] lg:text-center">
                   {value.titleName}
                 </p>
               </div>
@@ -185,49 +193,51 @@ const Home = () => {
           </div>
         </div>
 
-        <div>
-          <div className="flex items-center justify-between mv:grid mv:grid-cols-1 md:grid-cols-2 lg:px-0 md:px-[50px]">
-            <div className="mv:text-center md:text-left">
-              <h2 className="font-work-sans font-semibold leading-[45px] sm:text-[28px]	lg:text-[38px]">
+        <div className="py-[80px]">
+          <div className="flex items-center justify-between font-work-sans capitalize md:grid md:grid-cols-1">
+            <div className="sm:text-center">
+              <h2 className="text-[38px] font-semibold leading-[45px] lg:text-[32px]">
                 Discover More NFTs
               </h2>
 
-              <p className="mt-[20px] font-work-sans font-semibold capitalize sm:text-[16px] lg:text-[16px]">
+              <p className="mt-[10px] font-semibold lg:text-[16px]">
                 Explore new trending NFTs
               </p>
             </div>
 
-            <div>
-              <button className="my-[30px] flex items-center justify-center lg:mr-0 gap-3 rounded-[20px] border-[2px] border-solid border-[#A259FF] text-white mv:mx-auto mv:h-[42px] mv:px-[30px] md:h-[48px] md:px-[35px] xl:h-[60px] xl:px-[50px]">
-                <img src="./src/assets/icons/eye.png" alt="eyeImg" />
-                See All
-              </button>
-            </div>
+            <button className="flex items-center justify-center gap-3 rounded-[20px] border-[2px] border-solid border-[#A259FF] px-[50px] py-[15px] text-[16px] font-semibold hover:border-white sm:w-3/5 sm:mx-auto hover:bg-green-600 lg:px-[30px] lg:py-[10px] md:mt-[20px] md:w-2/5">
+              <img src="./src/assets/icons/eye.png" alt="eyeImg" />
+              See All
+            </button>
           </div>
 
-          <div className="mt-[60px] grid w-full grid-cols-3 not-italic lg:px-0 lg:grid-cols-3 mv:grid-cols-1 sm:gap-[20px] sm:px-[60px] md:mt-[30px] md:grid-cols-2 md:gap-[30px]">
+          <div className="mt-[60px] grid w-full sm:grid-cols-1 grid-cols-3 gap-[30px] not-italic lg:grid-cols-2">
             {dataUserTitle.map((value) => (
-              <div key={value.id} className="mv:mb-[30px] md:mb-0">
+              <div key={value.id} className="">
                 <img src={value.bigImg} alt="bigImg" className="w-full" />
-                <div className="rounded-b-[20px] bg-[#3B3B3B] capitalize  mv:px-[20px] mv:py-[10px] sm:p-[30px] md:py-[15px] xl:px-[30px] xl:py-[20px]">
-                  <p className="font-work-sans font-semibold leading-8  mv:text-[18px] lg:text-[18px] xl:text-[22px]">
+                <div className="rounded-b-[20px] sm:p-[30px] bg-[#3B3B3B] px-[30px] py-[20px] capitalize xl:px-[20px] lg:p-[30px] md:p-[20px]">
+                  <p className="font-work-sans text-[22px] font-semibold leading-8 xl:text-[20px]">
                     {value.titleName}
                   </p>
 
-                  <div className="mt-[10px] flex gap-3">
-                    <img src={value.smallImg} alt="smallImg" />
+                  <div className="mt-[10px] flex items-center gap-3">
+                    <img
+                      src={value.smallImg}
+                      alt="smallImg"
+                      className="w-[30px]"
+                    />
 
-                    <p className="font-space-mono font-normal leading-[22px] mv:text-[14px] xl:text-[16px]">
+                    <p className="font-space-mono text-[16px] font-normal leading-[22px]">
                       {value.smallImgName}
                     </p>
                   </div>
 
-                  <div className="flex items-center justify-between font-space-mono leading-[13px] text-[#858584] mv:my-[15px] mv:text-[16px] sm:my-[10px] lg:mt-[15px] xl:mt-[25px]">
+                  <div className="mt-[25px] sm:text-[16px] flex items-center justify-between font-space-mono text-[12px] font-normal leading-[13px] text-[#858584]">
                     <p>price</p>
                     <p>Highest Bid</p>
                   </div>
 
-                  <div className="my-[6px] flex items-center justify-between font-space-mono font-normal leading-[22px] sm:text-[14px] md:text-[14px] xl:text-[16px]">
+                  <div className="mt-[8px] flex items-center justify-between font-space-mono font-normal leading-[22px]">
                     <p>{value.price}</p>
                     <p>{value.bigPrice}</p>
                   </div>
@@ -236,102 +246,100 @@ const Home = () => {
             ))}
           </div>
         </div>
-      </div>
+      </section>
 
-      <div className="relative mx-auto h-[640px] max-w-[1400px] bg-[url('./src/assets/img/bg-img.png')]">
-        <div className="absolute bottom-0 flex w-full items-end justify-between xl:px-[115px] py-[60px] not-italic mv:grid mv:grid-cols-1 mv:p-[50px] sm:grid-cols-2 sm:p-[60px] md:p-[50px]">
-          <div className="mv:mx-auto mv:text-center">
-            <button className="flex gap-[10px] rounded-[20px] bg-[#3B3B3B] px-[20px] py-[10px]">
+      <section className="relative h-[640px] bg-[url('./src/assets/img/bg-img.png')]">
+        <div className="absolute sm:grid sm:grid-cols-1 bottom-0 flex w-full items-end justify-between px-[115px] py-[60px] not-italic lg:px-[70px] md:px-[30px]">
+          <div>
+            <button className="flex items-center sm:mx-auto gap-[12px] rounded-[20px] bg-[#3B3B3B] px-[20px] py-[10px]">
               <img
                 src="./src/assets/img/shroomie.png"
                 alt="shroomie"
                 className="h-[24px] w-[24px]"
               />
 
-              <span className="sm:text-[14px] md:text-[14px] xl:text-[16px]">
+              <span className="font-work-sans text-[16px] font-normal leading-[22px] md:text-[14px]">
                 Shroomie
               </span>
             </button>
 
-            <h1 className="font-work-sans lg:text-[51px] font-semibold capitalize leading-[56px] mv:my-[15px] sm:my-[30px] sm:text-[26px] md:text-[32px] xl:text-[51px]">
+            <h1 className="my-[30px] sm:text-center font-work-sans text-[51px] font-semibold capitalize leading-[56px] lg:text-[32px] md:text-[28px]">
               Magic Mashrooms
             </h1>
 
-            <button className="flex items-center justify-center gap-3 rounded-[20px] border-[2px] border-solid border-[#fff] bg-white font-semibold text-[#2B2B2B] mv:h-[38px] mv:px-[30px] md:h-[48px] md:px-[35px] xl:h-[60px] xl:px-[50px]">
+            <button className="flex items-center sm:mx-auto justify-center gap-3 rounded-[20px] border-[2px] border-solid border-[#fff] bg-white px-[50px] py-[16px] font-work-sans text-[16px] font-semibold text-[#2B2B2B] hover:bg-green-600 hover:text-white lg:px-[30px] lg:py-[10px]">
               <img src="./src/assets/icons/eye.png" alt="eyeImg" />
               See All
             </button>
           </div>
 
-          <div className="rounded-[20px] lg:p-[30px] bg-[#b6b6b348] font-space-mono mv:mx-auto mv:mt-[30px] mv:p-[30px] mv:text-center sm:p-[30px] md:py-[20px]">
-            <p className="font-normal leading-[13px] mv:text-[20px]	lg:text-[12px]">
+          <div className="rounded-[20px] sm:mt-[30px] sm:text-center bg-[#b6b6b348] p-[30px] sm:w-4/5 sm:mx-auto font-space-mono">
+            <p className="text-[12px] font-normal leading-[13px]">
               Auction ends in:
             </p>
 
-            <div className="flex gap-[15px]">
-              <div>
-                <p className="mb-[5px] lg:text-[38px] mt-[10px] flex gap-[10px] font-bold capitalize leading-[45px] mv:justify-center mv:text-[26px] xl:text-[38px]">
+            <div className="mt-[10px] flex items-center gap-[10px] not-italic">
+              <div className="sm:mx-auto">
+                <p className="mb-[5px] flex gap-[10px] md:text-[32px] text-[38px] font-bold capitalize leading-[45px] ">
                   <span>59</span>
                   <span>:</span>
                 </p>
 
-                <p className="font-normal leading-[13px] md:text-[16px]	lg:text-[12px]">
-                  Hours
-                </p>
+                <p className="text-[12px] font-normal leading-[13px]">Hours</p>
               </div>
 
-              <div>
-                <p className="mb-[5px] lg:text-[38px] mt-[10px] flex gap-[10px] font-bold capitalize leading-[45px] mv:justify-center mv:text-[26px] xl:text-[38px]">
+              <div className="sm:mx-auto">
+                <p className="mb-[5px] flex gap-[10px] text-[38px] md:text-[32px] font-bold capitalize leading-[45px]">
                   <span>59</span>
                   <span>:</span>
                 </p>
 
-                <p className="font-normal leading-[13px] md:text-[16px]	lg:text-[12px]">
+                <p className="text-[12px] font-normal leading-[13px]">
                   Minutes
                 </p>
               </div>
 
-              <div>
-                <p className="mb-[5px] mt-[10px] lg:text-[38px] flex gap-[10px] font-bold capitalize leading-[45px] mv:justify-center mv:text-[26px] xl:text-[38px]">
+              <div className="sm:mx-auto">
+                <p className="mb-[5px] md:text-[32px] flex gap-[10px] text-[38px] font-bold capitalize leading-[45px]">
                   <span>59</span>
                 </p>
 
-                <p className="font-normal leading-[13px] md:text-[16px]	lg:text-[12px]">
+                <p className="text-[12px] font-normal leading-[13px]">
                   Seconds
                 </p>
               </div>
             </div>
           </div>
         </div>
-      </div>
+      </section>
 
-      <div className="mx-auto max-w-[1400px] xl:px-[115px] py-[80px] mv:p-[50px] sm:p-[60px] md:p-[50px]">
-        <div className="mb-[80px]">
-          <h2 className="font-work-sans font-semibold leading-[45px] mv:text-center mv:text-[26px] sm:text-[28px] md:text-left	lg:text-[38px]">
+      <section className="px-[115px] py-[80px] lg:px-[70px] md:px-[30px]">
+        <div className="mb-[80px] sm:text-center font-work-sans not-italic">
+          <h2 className=" text-[38px] font-semibold capitalize leading-[45px] lg:text-[32px]">
             How it works
           </h2>
 
-          <p className="mt-[20px] font-work-sans font-semibold capitalize  mv:text-center mv:text-[16px] md:text-left">
+          <p className="mt-[10px] text-[22px] font-normal capitalize lg:text-[16px]">
             Find out how to get started
           </p>
 
-          <div className="grid w-full font-work-sans not-italic mv:mt-[30px] mv:grid-cols-1 sm:mt-[30px] sm:gap-[20px] sm:px-[60px] md:mt-[40px] md:grid-cols-3 md:gap-[20px] md:px-0">
+          <div className="grid sm:grid-cols-1 w-full grid-cols-3 gap-[30px] py-[48px] lg:grid-cols-2">
             {imgsTitle.map((value) => (
               <div
                 key={value.id}
-                className="rounded-[20px] bg-[#3B3B3B] text-center mv:my-[20px] mv:p-[25px] sm:my-[10px] sm:px-[35px] md:px-[20px] md:py-[6px] md:pb-[20px] xl:px-[30px] xl:pb-[30px]"
+                className="rounded-[20px] bg-[#3B3B3B] px-[30px] pb-[30px] pt-[10px] text-center font-work-sans"
               >
                 <img
                   src={value.img}
                   alt="img"
-                  className="mv:p-[15px] mv:px-[55px] sm:mx-auto sm:px-[100px] sm:py-0 md:p-0 md:px-[14px] xl:w-full xl:p-[10px]"
+                  className="mx-auto px-[20px] xl:px-[30px]"
                 />
 
-                <p className="font-semibold capitalize leading-[31px] mv:text-[18px] md:text-[16px] xl:mt-[20px] xl:text-[22px]">
+                <p className="mt-[20px] text-[22px] font-semibold capitalize leading-[31px]">
                   {value.titleName}
                 </p>
 
-                <p className="mt-[10px] text-[16px] font-normal leading-[22px] mv:text-[14px] md:text-[12px]">
+                <p className="mt-[10px] text-[16px] font-normal leading-[22px] xl:text-[14px]">
                   {value.title}
                 </p>
               </div>
@@ -339,8 +347,8 @@ const Home = () => {
           </div>
         </div>
 
-        <div className="grid grid-cols-2 rounded-[20px] bg-[#3B3B3B] mv:grid-cols-1 sm:p-[60px] md:grid-cols-2 md:gap-[15px] md:px-[20px] md:py-[30px] xl:gap-[80px] xl:p-[60px]">
-          <div className="w-full">
+        <div className="grid grid-cols-2 sm:grid-cols-1 sm:p-[45px] items-center gap-[80px] md:px-[25px] rounded-[20px] bg-[#3B3B3B] p-[60px] xl:gap-[50px] xl:p-[45px] lg:gap-[30px] lg:p-[35px]">
+          <div className="h-full w-full">
             <img
               src="./src/assets/img/kosmosUserImg.png"
               alt="kosmosUserImg"
@@ -348,37 +356,37 @@ const Home = () => {
             />
           </div>
 
-          <div className="w-full font-work-sans mv:p-[30px] md:p-[15px]">
-            <h2 className="font-semibold capitalize leading-[45px] mv:text-[24px] sm:text-[28px] md:text-[28px] lg:text-[32px] xl:text-[38px]">
+          <div className="w-full font-work-sans capitalize">
+            <h2 className="text-[38px] font-semibold leading-[45px] xl:text-[32px] lg:text-[28px]">
               Join our weekly digest
             </h2>
 
-            <p className="mt-[10px] font-normal capitalize xl:mt-[10px] mv:text-[14px] sm:text-[16px] md:text-[16px] lg:text-[18px] xl:text-[22px]">
+            <p className="mt-[10px] text-[22px] font-normal xl:text-[18px] lg:text-[16px]">
               Get exclusive promotions & updates straight to your inbox.
             </p>
 
             <form
               action="/"
-              className="flex justify-between rounded-[20px] lg:grid-cols-2 lg:bg-white mv:mt-[20px] sm:mt-[30px] md:grid md:grid-cols-1 md:bg-transparent xl:mt-[40px] lg:mt-[80px]"
+              className="relative mt-[40px] sm:grid md:mt-[30px] md:grid flex justify-between rounded-[20px] bg-white"
             >
               <input
                 type="text"
                 placeholder="Enter your email here"
-                className="rounded-l-[20px] xl:m-0 text-[#2B2B2B] outline-0 mv:px-[20px] mv:py-[8px] sm:py-[10px] sm:text-[14px] md:mb-[16px] lg:m-[5px] md:w-full md:rounded-[20px] md:py-[10px] md:text-[16px] lg:py-[12px] xl:py-[10px]"
+                className="rounded-l-[20px] px-[30px] py-[16px] text-[#2B2B2B] outline-0 xl:py-[12px] xl:pl-[15px] lg:py-[10px] lg:text-[14px]"
               />
 
-              <button className="flex items-center justify-center rounded-[20px] bg-[#A259FF] mv:gap-2 xl:py-0 sm:text-[14px] md:w-full md:gap-3 lg:py-0 md:py-[10px] md:text-[16px] ">
+              <button className="absolute sm:px-[20px] right-0 flex items-center justify-center  gap-3 rounded-[20px] bg-[#A259FF] px-[30px] py-[16px] hover:bg-green-600 xl:px-[20px] xl:py-[12px] lg:px-[10px] lg:py-[10px] lg:text-[14px]">
                 <img
                   src="./src/assets/icons/envelopeSimple.png"
                   alt="envelopeSimple"
-                  className="sm:w-[18px] xl:w-[22px]"
+                  className=""
                 />
                 Subscribe
               </button>
             </form>
           </div>
         </div>
-      </div>
+      </section>
     </div>
   );
 };

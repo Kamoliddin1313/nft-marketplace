@@ -3,35 +3,34 @@ import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
-    <header className="mx-auto flex mv:px-[30px] max-w-[1400px] items-center justify-between py-[20px] font-space-mono font-semibold not-italic text-white lg:px-[50px] xl:px-[80px]">
-      <Link to="/home" className="flex items-center">
+    <header className="flex px-[50px] lg:px-[30px] items-center justify-between py-[20px] font-space-mono font-semibold not-italic text-white">
+      <Link to="/home" className="flex gap-4 items-center">
         <img
           src="./src/assets/icons/storefront.png"
-          className="xl:h-[32px] xl:w-[32px] lg:h-[28px] lg:w-[28px] md:h-[26px] mv:w-[26px]"
+          className="lg:w-[25px] md:w-[30px]"
         />
-        <p className="px-[12px] py-[8px] xl:text-[22px] lg:text-[18px] md:text-[16px]">
+        <p className="text-[22px] lg:text-[16px] md:text-[18px]">
           NFT Marketplace
         </p>
       </Link>
 
-      <ul className="flex items-center xl:gap-[50px] md:gap-[20px] xl:text-base lg:gap-[30px] lg:text-[15px] md:text-[13px]">
-        <li className="mv:hidden md:block">
+      <ul className="flex items-center lg:text-[14px] font-work-sans gap-[10px]">
+        <li className="px-[20px] py-[12px] lg:px-[10px] md:hidden lg:py-[8px]">
           <Link to="/aa">Marketplace</Link>
         </li>
-        <li className="mv:hidden md:block">
+        <li className="px-[20px] py-[12px] lg:px-[10px] md:hidden lg:py-[8px]">
           <Link to="/bb">Rankings</Link>
         </li>
-        <li className="mv:hidden md:block">
+        <li className="px-[20px] py-[12px] lg:px-[10px] md:hidden lg:py-[8px]">
           <Link to="/cc">Connect a wallet</Link>
         </li>
         <li>
           <Link
             to="/dd"
-            className="flex items-center gap-[12px] rounded-[20px]	bg-[#A259FF] mv:px-[20px] mv:py-[8px] lg:px-[18px] lg:py-[12px] xl:px-[25px] xl:py-[14px]"
+            className="flex py-[12px] hover:bg-green-600 hover:border-white border-[#A259FF] border-2 items-center gap-[12px] rounded-[20px] lg:px-[15px] lg:py-[8px] px-[30px] leading-6 font-semibold	bg-[#A259FF]"
           >
-            <img src="./src/assets/icons/user.png" className="xl:w-[22px] lg:w-[18px] mv:w-[16px]"/>
-            {/* <UserIcon className="h-[32px] w-[32px] bg-red-900" /> */}
-            <p className="lg:text-[15px] mv:text-[13px]">Sign Up</p>
+            <img src="./src/assets/icons/user.png" className="lg:w-[16px]"/>
+            <p className="">Sign Up</p>
           </Link>
         </li>
       </ul>

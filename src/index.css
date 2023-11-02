@@ -2,9 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-body{
-    background:#2B2B2B;
-}
+
 .bg-img{
     background-image: url("./src/assets/img/bg-img.png");
 }

@@ -3,7 +3,7 @@ import Home from "./pages/Home";
 import CreateAccount from "./pages/CreateAccount";
 import ConnectWallet from "./pages/ConnectWallet";
 import Artist from "./pages/Artist";
-import Mainlayout from "./layout/Mainlayout";
+import Mainlayout from "./components/layout/Mainlayout";
 import MarketPlace from "./pages/MarketPlace";
 import NFT from "./pages/NFT";
 import Rankings from "./pages/Rankings";
@@ -12,12 +12,12 @@ function App() {
   return (
     <Routes>
       <Route path="/" element={<Mainlayout />}>
-        <Route index path="/home" element={<Home />} />
-        <Route path="/marketplace" element={<MarketPlace />} />
+        <Route index element={<Home />} />
+        <Route path="/market_place" element={<MarketPlace />} />
         <Route path="/nft" element={<NFT />} />
         <Route path="/rankings" element={<Rankings />} />
-        <Route path="/createaccount" element={<CreateAccount />} />
-        <Route path="/connectwallet" element={<ConnectWallet />} />
+        <Route path="/create_account" element={<CreateAccount />} />
+        <Route path="/connect_wallet" element={<ConnectWallet />} />
         <Route path="/artist" element={<Artist />} />
         <Route
           path="*"

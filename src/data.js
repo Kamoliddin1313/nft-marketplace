@@ -5,7 +5,9 @@ export const dataimg = [
     imgsBig: "./src/assets/img/dogImg.png",
     imgsBig1: "./src/assets/img/dogImg.png",
     title: "1025+",
-    jkfsf:["xgfd","werewr","8858845"]
+    name:"DSGN Animals",
+    smoll_img:"./src/assets/img/mrfox.png",
+    smoll_img_name:"MrFox",
   },
   {
     id: 2,
@@ -13,6 +15,9 @@ export const dataimg = [
     imgsBig: "./src/assets/img/stravberry.png",
     imgsBig1: "./src/assets/img/stravberry.png",
     title: "1025+",
+    name:"Magic Mushrooms",
+    smoll_img:"./src/assets/img/shroomie.png",
+    smoll_img_name:"Shroomie",
   },
   {
     id: 3,
@@ -20,6 +25,9 @@ export const dataimg = [
     imgsBig: "./src/assets/img/robotImg.png",
     imgsBig1: "./src/assets/img/robotImg.png",
     title: "1025+",
+    name:"Disco Machines",
+    smoll_img:"./src/assets/img/beKindRobots.png",
+    smoll_img_name:"BeKind2Robots",
   },
 ];
 
