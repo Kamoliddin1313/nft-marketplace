@@ -7,9 +7,6 @@ export default {
         "space-mono": ["Space Mono", "monospace"],
         "work-sans": ["Work Sans", "sans-serif"],
       },
-      inset: {
-        "30%": "30%",
-      },
     },
     screens: {
       xl: { max: "1280px" },

@@ -4,7 +4,7 @@ import Header from "../Header";
 
 const Mainlayout = () => {
   return (
-    <div className="bg-[#2B2B2B] max-w-[1280px] mx-auto">
+    <div>
       <Header />
       <Outlet />
       <Footer />
