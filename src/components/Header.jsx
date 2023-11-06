@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Header = () => {
   return (
     <header>
-      <nav className="flex items-center justify-between px-[50px] py-[20px] font-space-mono font-semibold not-italic text-white lg:px-[30px]">
+      <nav className="flex items-center justify-between px-[150px] xl:px-[50px] py-[20px] font-space-mono font-semibold not-italic text-white lg:px-[30px]">
         <Link to="/home" className="flex items-center gap-4">
           <img
             src="./src/assets/icons/storefront.svg"

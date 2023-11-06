@@ -4,23 +4,23 @@ import {
   dataimg,
   imgsTitle,
   userImg,
-} from "../data";
+} from "../contents/data";
 const Home = () => {
   return (
     <div className="not-italic text-white">
       <section className="mx-auto max-w-[1280px] px-[115px] lg:px-[70px] md:px-[30px] sm:px-[60px]">
-        <div className="grid grid-cols-2 gap-[30px]  py-[80px] lg:py-[40px] sm:grid-cols-1">
+        <section className="grid grid-cols-2 gap-[30px]  py-[80px] lg:py-[40px] sm:grid-cols-1">
           <div className="sm:mx-auto sm:text-center">
-            <h1 className="font-work-sans text-[67px] md:leading-[45px] xl:leading-[65px] lg:leading-[50px] font-semibold capitalize leading-[73px] xl:text-[52px] lg:text-[38px] md:text-[32px]">
+            <h1 className="font-work-sans text-[67px] font-semibold capitalize leading-[73px] xl:text-[52px] xl:leading-[65px] lg:text-[38px] lg:leading-[50px] md:text-[32px] md:leading-[45px]">
               Discover digital art & Collect NFTs
             </h1>
 
-            <p className="mt-4 font-work-sans text-[22px] lg:leading-[25px] xl:mt-3 font-normal capitalize xl:leading-[30px] leading-[35px] xl:text-[18px] lg:text-[14px] md:text-[14px]">
+            <p className="mt-4 font-work-sans text-[22px] font-normal capitalize leading-[35px] xl:mt-3 xl:text-[18px] xl:leading-[30px] lg:text-[14px] lg:leading-[25px] md:text-[14px]">
               NFT marketplace UI created with Anima for Figma. Collect, buy and
               sell art from more than 20k NFT artists.
             </p>
 
-            <button className="my-[30px] lg:my-[15px] xl:my-[25px] flex items-center justify-center gap-3 rounded-[20px] border-2 border-[#A259FF] bg-[#A259FF] px-[50px] py-[15px] xl:py-3 lg:px-[30px] lg:py-[10px] md:py-[8px] sm:mx-auto">
+            <button className="my-[30px] flex items-center justify-center gap-3 rounded-[20px] border-2 border-[#A259FF] bg-[#A259FF] px-[50px] py-[15px] xl:my-[25px] xl:py-3 lg:my-[15px] lg:px-[30px] lg:py-[10px] md:py-[8px] sm:mx-auto">
               <img
                 src="./src/assets/icons/rocket_launch_icon.svg"
                 alt="btnImg"
@@ -30,28 +30,28 @@ const Home = () => {
 
             <div className="grid grid-cols-3 gap-[30px]">
               <div>
-                <p className="font-space-mono text-[28px] font-bold leading-[39px] xl:leading-[35px] xl:text-[24px] lg:text-[20px]">
+                <p className="font-space-mono text-[28px] font-bold leading-[39px] xl:text-[24px] xl:leading-[35px] lg:text-[20px]">
                   240k+
                 </p>
-                <p className="font-work-sans text-[24px] font-normal xl:leading-[35px] leading-[38px] xl:text-[20px] lg:text-[16px] md:text-[14px]">
+                <p className="font-work-sans text-[24px] font-normal leading-[38px] xl:text-[20px] xl:leading-[35px] lg:text-[16px] md:text-[14px]">
                   Total Sale
                 </p>
               </div>
 
               <div>
-                <p className="font-space-mono text-[28px] xl:leading-[35px] font-bold leading-[39px] xl:text-[24px] lg:text-[20px]">
+                <p className="font-space-mono text-[28px] font-bold leading-[39px] xl:text-[24px] xl:leading-[35px] lg:text-[20px]">
                   100k+
                 </p>
-                <p className="font-work-sans text-[24px] xl:leading-[35px] font-normal leading-[38px] xl:text-[20px] lg:text-[16px] md:text-[14px]">
+                <p className="font-work-sans text-[24px] font-normal leading-[38px] xl:text-[20px] xl:leading-[35px] lg:text-[16px] md:text-[14px]">
                   Auctions
                 </p>
               </div>
 
               <div>
-                <p className="font-space-mono text-[28px] xl:leading-[35px] font-bold leading-[39px] xl:text-[24px] lg:text-[20px]">
+                <p className="font-space-mono text-[28px] font-bold leading-[39px] xl:text-[24px] xl:leading-[35px] lg:text-[20px]">
                   240k+
                 </p>
-                <p className="font-work-sans text-[24px] xl:leading-[35px] font-normal leading-[38px] xl:text-[20px] lg:text-[16px] md:text-[14px]">
+                <p className="font-work-sans text-[24px] font-normal leading-[38px] xl:text-[20px] xl:leading-[35px] lg:text-[16px] md:text-[14px]">
                   Artists
                 </p>
               </div>
@@ -76,9 +76,9 @@ const Home = () => {
               </div>
             </div>
           </div>
-        </div>
-
-        <div className="my-[80px] md:my-[50px] lg:my-[50px]">
+        </section>
+        
+        <section className="my-[80px] lg:my-[50px] md:my-[50px]">
           <h2 className="font-work-sans text-[38px] font-semibold leading-[45px] lg:text-[32px] sm:text-center">
             Trending Collection
           </h2>
@@ -87,7 +87,7 @@ const Home = () => {
             Checkout our weekly updated trending collection.
           </p>
 
-          <div className="mt-[60px] lg:mt-[45px] grid w-full grid-cols-3 gap-[30px] lg:grid-cols-2 sm:grid-cols-1">
+          <div className="mt-[60px] grid w-full grid-cols-3 gap-[30px] lg:mt-[45px] lg:grid-cols-2 sm:grid-cols-1">
             {dataimg.map((imag) => (
               <div key={imag.id} className="w-full">
                 <div className="w-full">
@@ -101,7 +101,7 @@ const Home = () => {
                   </p>
                 </div>
 
-                <div className="mt-[15px] lg:mt-2.5 font-work-sans capitalize">
+                <div className="mt-[15px] font-work-sans capitalize lg:mt-2.5">
                   <p className="text-[22px] font-semibold leading-[31px] xl:text-[20px] lg:text-[18px]">
                     {imag.name}
                   </p>
@@ -119,9 +119,9 @@ const Home = () => {
               </div>
             ))}
           </div>
-        </div>
+        </section>
 
-        <div className="flex items-center justify-between font-work-sans capitalize md:grid md:grid-cols-1">
+        <section className="flex items-center justify-between font-work-sans capitalize md:grid md:grid-cols-1">
           <div>
             <h2 className="text-[38px] font-semibold leading-[45px] lg:text-[32px] sm:text-center">
               Trending Collection
@@ -139,31 +139,27 @@ const Home = () => {
             />
             View Rankings
           </button>
-        </div>
+        </section>
 
-        <div className="mt-[60px] grid grid-cols-4 gap-[30px] capitalize lg:grid-cols-2 sm:grid-cols-1">
+        <section className="mt-[60px] grid grid-cols-4 gap-[30px] capitalize lg:grid-cols-2 sm:grid-cols-1">
           {dataUserImg.map((value) => (
             <div
               key={value.id}
               className="relative rounded-[20px] bg-[#3B3B3B] p-[20px] font-work-sans xl:p-[15px] lg:p-[25px]"
             >
-              <p className="absolute flex h-[30px] w-[30px] xl:h-[25px] xl:w-[25px] items-center justify-center rounded-full bg-[#2B2B2B] font-space-mono text-[16px] font-normal text-[#858584] lg:p-[15px] xl:text-[14px] lg:text-[16px] mv:text-[13px]">
+              <p className="absolute flex h-[30px] w-[30px] items-center justify-center rounded-full bg-[#2B2B2B] font-space-mono text-[16px] font-normal text-[#858584] xl:h-[25px] xl:w-[25px] xl:text-[14px] lg:p-[15px] lg:text-[16px] mv:text-[13px]">
                 {value.id}
               </p>
 
               <div className="font-work-sans">
-                <img
-                  src={value.img}
-                  alt="user img"
-                  className="mx-auto w-1/2"
-                />
+                <img src={value.img} alt="user img" className="mx-auto w-1/2" />
 
                 <div className="mt-[20px] text-center">
                   <p className="text-[22px] font-semibold leading-[31px] xl:text-[18px] lg:text-[20px]">
-                    {value.name}  
+                    {value.name}
                   </p>
 
-                  <div className="mt-[5px] items-center justify-between grid sm:w-2/3 sm:mx-auto xl:grid-cols-1 lg:grid-cols-2 xl:gap-0 gap-[10px] text-[16px] font-normal leading-[22px] xl:text-[12px] lg:text-[16px]">
+                  <div className="mt-[5px] grid items-center justify-between gap-[10px] text-[16px] font-normal leading-[22px] xl:grid-cols-1 xl:gap-0 xl:text-[12px] lg:grid-cols-2 lg:text-[16px] sm:mx-auto sm:w-2/3">
                     <p className="text-[#858584]">Total Sales:</p>
 
                     <p className="font-space-mono">{value.userTitle}</p>
@@ -172,9 +168,9 @@ const Home = () => {
               </div>
             </div>
           ))}
-        </div>
+        </section>
 
-        <div className="my-[80px] capitalize">
+        <section className="my-[80px] capitalize">
           <h2 className="font-work-sans text-[38px] font-semibold leading-[45px] lg:text-[32px] sm:text-center">
             Browse Categories
           </h2>
@@ -198,9 +194,9 @@ const Home = () => {
               </div>
             ))}
           </div>
-        </div>
+        </section>
 
-        <div className="py-[80px] md:py-[30px]">
+        <section className="py-[80px] md:py-[30px]">
           <div className="flex items-center justify-between font-work-sans capitalize md:grid md:grid-cols-1">
             <div className="sm:text-center">
               <h2 className="text-[38px] font-semibold leading-[45px] lg:text-[32px]">
@@ -212,7 +208,7 @@ const Home = () => {
               </p>
             </div>
 
-            <button className="flex mb-0 my-[30px] items-center justify-center gap-3 rounded-[20px] border-[2px] border-solid border-[#A259FF] px-[50px] py-[15px] text-[16px] font-semibold leading-[22px] lg:px-[30px] lg:py-[10px] md:mt-[20px] md:w-2/5 sm:mx-auto sm:w-3/5">
+            <button className="my-[30px] mb-0 flex items-center justify-center gap-3 rounded-[20px] border-[2px] border-solid border-[#A259FF] px-[50px] py-[15px] text-[16px] font-semibold leading-[22px] lg:px-[30px] lg:py-[10px] md:mt-[20px] md:w-2/5 sm:mx-auto sm:w-3/5">
               <img src="./src/assets/icons/eye.svg" alt="eyeImg" />
               See All
             </button>
@@ -222,7 +218,7 @@ const Home = () => {
             {dataUserTitle.map((value) => (
               <div key={value.id} className="">
                 <img src={value.bigImg} alt="bigImg" className="w-full" />
-                <div className="rounded-b-[20px] bg-[#3B3B3B] lg:p-5 px-[30px] py-[20px] capitalize xl:px-[20px] md:p-[20px] sm:p-[30px]">
+                <div className="rounded-b-[20px] bg-[#3B3B3B] px-[30px] py-[20px] capitalize xl:px-[20px] lg:p-5 md:p-[20px] sm:p-[30px]">
                   <p className="font-work-sans text-[22px] font-semibold leading-8 xl:text-[20px]">
                     {value.titleName}
                   </p>
@@ -252,12 +248,12 @@ const Home = () => {
               </div>
             ))}
           </div>
-        </div>
+        </section>
       </section>
 
-      <section className="relative mx-auto h-[640px] bg-no-repeat bg-center bg-cover max-w-[1280px] bg-[url('./src/assets/images/bg-img.png')]">
+      <section className="relative mx-auto h-[640px] max-w-[1280px] bg-[url('./src/assets/images/bg-img.png')] bg-cover bg-center bg-no-repeat">
         <div className="absolute bottom-0 flex w-full items-end justify-between px-[115px] py-[60px] not-italic lg:px-[70px] md:px-[30px] sm:grid sm:grid-cols-1">
-          <div>
+          <>
             <button className="flex items-center gap-3 rounded-[20px] bg-[#3B3B3B] px-[20px] py-[10px] sm:mx-auto">
               <img
                 src="./src/assets/images/shroomie.png"
@@ -278,7 +274,7 @@ const Home = () => {
               <img src="./src/assets/icons/eye.svg" alt="eyeImg" />
               See All
             </button>
-          </div>
+          </>
 
           <div className="rounded-[20px] bg-[#b6b6b348] p-[30px] font-space-mono sm:mx-auto sm:mt-[30px] sm:w-4/5 sm:text-center">
             <p className="text-[12px] font-normal leading-[13px]">
@@ -364,17 +360,17 @@ const Home = () => {
           </div>
 
           <div className="w-full font-work-sans capitalize">
-            <h2 className="text-[38px] font-semibold leading-[45px] lg:leading-[40px] xl:text-[32px] lg:text-[28px]">
+            <h2 className="text-[38px] font-semibold leading-[45px] xl:text-[32px] lg:text-[28px] lg:leading-[40px]">
               Join our weekly digest
             </h2>
 
-            <p className="mt-[10px] text-[22px] font-normal lg:leading-[22px] xl:text-[18px] lg:text-[16px]">
+            <p className="mt-[10px] text-[22px] font-normal xl:text-[18px] lg:text-[16px] lg:leading-[22px]">
               Get exclusive promotions & updates straight to your inbox.
             </p>
 
             <form
               action="/"
-              className="relative mt-[40px] lg:grid-cols-1 lg:mt-7 flex justify-between rounded-[20px] bg-white md:mt-[30px] md:grid sm:grid"
+              className="relative mt-[40px] flex justify-between rounded-[20px] bg-white lg:mt-7 lg:grid-cols-1 md:mt-[30px] md:grid sm:grid"
             >
               <input
                 type="text"
