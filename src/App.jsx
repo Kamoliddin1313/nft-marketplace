@@ -1,12 +1,12 @@
 import { Route, Routes } from "react-router-dom";
-import Home from "./pages/Home";
-import CreateAccount from "./pages/CreateAccount";
-import ConnectWallet from "./pages/ConnectWallet";
-import Artist from "./pages/Artist";
+import Home from "./pages/home/Home";
+import CreateAccount from "./pages/createAccount/CreateAccount";
+import ConnectWallet from "./pages/connectWallet/ConnectWallet";
+import Artist from "./pages/artist/Artist";
 import Mainlayout from "./components/layout/Mainlayout";
-import MarketPlace from "./pages/MarketPlace";
-import NFT from "./pages/NFT";
-import Rankings from "./pages/Rankings";
+import MarketPlace from "./pages/marketPlace/MarketPlace";
+import NFT from "./pages/nft/NFT";
+import Rankings from "./pages/rankings/Rankings";
 
 function App() {
   return (

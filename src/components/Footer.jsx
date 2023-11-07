@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <footer className="bg-[#3B3B3B] px-[115px] py-[40px] xl:px-[50px] lg:px-[30px]">
       <div className="flex w-full justify-between xl:gap-[30px] md:grid md:grid-cols-1">
-        <div className="flex grid-cols-2 justify-between gap-[40px] xl:gap-[30px] lg:w-full sm:grid sm:grid-cols-1">
+        <div className="flex grid-cols-2 justify-between gap-[40px] xl:w-3/5 xl:gap-[30px] lg:w-[65%] md:grid md:grid-cols-1 sm:grid sm:grid-cols-1">
           <div className="w-3/5 text-[#CCC]">
             <div className="flex items-center gap-3">
               <img
@@ -85,11 +85,11 @@ const Footer = () => {
 
           <form className="relative mt-[20px] box-border flex w-full rounded-[20px] bg-white xl:top-[25px] md:mb-[20px] md:w-2/3 sm:w-full">
             <input
-              className="rounded-[20px] px-[20px] py-[16px] text-[#2B2B2B] outline-none xl:py-[12px] xl:pl-[15px] lg:py-[10px] lg:text-[14px]"
+              className="rounded-[20px] px-[20px] py-[16px] text-[#2B2B2B] outline-none xl:py-[12px] xl:pl-[15px] lg:text-[14px]"
               type="text"
               placeholder="Enter your email here Subscribe"
             />
-            <button className="absolute right-0 rounded-[20px] bg-[#A259FF] px-[50px] py-[16px] font-work-sans text-white xl:px-[20px] xl:py-[12px] lg:py-[10px] lg:text-[14px] md:px-[50px]">
+            <button className="absolute right-0 rounded-[20px] bg-[#A259FF] px-[50px] py-[16px] font-work-sans text-white xl:px-[20px] xl:py-[12px] lg:text-[14px] md:px-[50px]">
               Subscribe
             </button>
           </form>
