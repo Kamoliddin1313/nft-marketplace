@@ -8,8 +8,8 @@ export const trendingCollection = [
       "./src/assets/images/trending_collection/dogImg.png",
     ],
     title: "DSGN Animals",
-    avatar_img: "./src/assets/images/trending_collection/mrfox.png",
-    creator_img: "MrFox",
+    creatorAvatar: "./src/assets/images/trending_collection/mrfox.png",
+    creator: "MrFox",
   },
   {
     id: 2,
@@ -20,8 +20,8 @@ export const trendingCollection = [
       "./src/assets/images/trending_collection/stravberry.png",
     ],
     title: "Magic Mushrooms",
-    avatar_img: "./src/assets/images/trending_collection/shroomie.png",
-    creator_img: "Shroomie",
+    creatorAvatar: "./src/assets/images/trending_collection/shroomie.png",
+    creator: "Shroomie",
   },
   {
     id: 3,
@@ -32,8 +32,8 @@ export const trendingCollection = [
       "./src/assets/images/trending_collection/robotImg.png",
     ],
     title: "Disco Machines",
-    avatar_img: "./src/assets/images/trending_collection/beKindRobots.png",
-    creator_img: "BeKind2Robots",
+    creatorAvatar: "./src/assets/images/trending_collection/beKindRobots.png",
+    creator: "BeKind2Robots",
   },
 ];
 

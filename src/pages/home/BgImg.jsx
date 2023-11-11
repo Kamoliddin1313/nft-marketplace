@@ -1,9 +1,10 @@
 import React from "react";
+import { SeeImg } from "../../assets/icons/Icons";
 
 const BgImg = () => {
   return (
-    <section className="mx-auto h-[640px] bg-[url('./src/assets/images/bg-img.png')] bg-cover bg-center bg-no-repeat lg:h-[500px]">
-      <div className="mx-auto flex w-full max-w-[1280px] items-end justify-between px-[115px] py-[60px] lg:px-[30px] md:px-[30px] sm:grid sm:grid-cols-1">
+    <section className="h-[640px] bg-[linear-gradient(rgba(162,89,255,0.00)0%,#A259FF_100%),url('./src/assets/images/bg-img.png')] bg-cover bg-center bg-no-repeat lg:h-[500px]">
+      <div className="mx-auto mb-auto flex  h-[100%] w-full max-w-[1280px] items-end justify-between px-[115px] py-[60px] lg:px-[72px] md:grid md:grid-cols-1 md:px-[30px] sm:grid sm:grid-cols-1">
         <div className="sm:ml-0">
           <button className="flex items-center gap-3 rounded-[20px] bg-[#3B3B3B] px-[20px] py-[10px] sm:mx-auto">
             <img
@@ -17,17 +18,17 @@ const BgImg = () => {
             </span>
           </button>
 
-          <h1 className="my-[30px] font-work-sans text-[51px] font-semibold capitalize leading-[56px] lg:text-[32px] md:text-[28px] sm:text-center">
+          <h1 className="my-[30px] font-work-sans text-[51px] font-semibold capitalize leading-[56px] xl:text-[46px] lg:text-[38px] lg:leading-[45px] md:text-[38px] sm:text-center">
             Magic Mashrooms
           </h1>
 
-          <button className="flex items-center justify-center gap-3 rounded-[20px] border-[2px] border-solid border-[#fff] bg-white px-[50px] py-[22px] font-work-sans text-[16px] font-semibold text-[#2B2B2B] lg:px-[30px] lg:py-[10px] sm:mx-auto">
-            <img src="./src/assets/icons/eye.svg" alt="eyeImg" />
+          <button className="flex items-center justify-center gap-3 rounded-[20px] bg-white px-[50px] py-[22px] font-work-sans text-[16px] font-semibold text-[#2B2B2B] md:mb-[30px] md:w-full sm:mx-auto">
+            <SeeImg />
             See All
           </button>
         </div>
 
-        <div className="rounded-[20px] bg-[#b6b6b348] p-[30px] font-space-mono sm:mx-auto sm:mt-[30px] sm:w-4/5 sm:text-center">
+        <div className="rounded-[20px] bg-[#b6b6b348] p-[30px] font-space-mono md:mx-auto sm:mx-auto sm:mt-[30px] sm:w-4/5 sm:text-center">
           <p className="text-[12px] font-normal leading-[13px]">
             Auction ends in:
           </p>

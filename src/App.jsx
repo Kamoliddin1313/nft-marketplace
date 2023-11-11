@@ -12,12 +12,12 @@ function App() {
   return (
     <Routes>
       <Route path="/" element={<Mainlayout />}>
-        <Route index element={<Home />} />
-        <Route path="/market_place" element={<MarketPlace />} />
+        <Route index path="/home" element={<Home />} />
+        <Route path="/market-place" element={<MarketPlace />} />
         <Route path="/nft" element={<NFT />} />
         <Route path="/rankings" element={<Rankings />} />
-        <Route path="/create_account" element={<CreateAccount />} />
-        <Route path="/connect_wallet" element={<ConnectWallet />} />
+        <Route path="/createAccount" element={<CreateAccount />} />
+        <Route path="/connect-wallet" element={<ConnectWallet />} />
         <Route path="/artist" element={<Artist />} />
         <Route
           path="*"
