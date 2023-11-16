@@ -1,6 +1,6 @@
 import React from "react";
 import { discoverMoreNFTs } from "../../contents/index";
-import { SeeImg } from "../../assets/icons/Icons";
+import { SeeImgIcon } from "../../assets/icons/Icons";
 const DiscoverMoreNFTs = () => {
   return (
     <section className=" mx-auto max-w-[1280px] p-0 px-[115px] py-[80px] lg:m-0 lg:px-[72px] md:p-[30px] md:px-[30px] sm:px-[60px]">
@@ -16,7 +16,7 @@ const DiscoverMoreNFTs = () => {
         </div>
 
         <button className="my-[30px] mb-0 flex h-[60px] items-center justify-center gap-3 rounded-[20px] border-[2px] border-solid border-[#A259FF] px-[50px] text-[16px] font-semibold leading-[22px] xl:px-[30px] lg:px-[50px] md:mt-[20px] md:w-full sm:mx-auto sm:h-[60px] sm:w-full">
-          <SeeImg />
+          <SeeImgIcon />
           See All
         </button>
       </div>

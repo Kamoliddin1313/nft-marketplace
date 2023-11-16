@@ -11,16 +11,18 @@ const BrowseCategorse = () => {
         {browseCategories.map((value) => (
           <div key={value.id} className="rounded-[24px] bg-[#3B3B3B]">
             <div className="relative overflow-hidden rounded-t-[24px]">
-              <img
+              {/* <img
                 src={value.top_img}
                 alt="imgtop"
                 className="absolute inset-[30%] z-30 xl:w-2/5 md:inset-[20%] md:w-3/5"
-              />
+              /> */}
+
+              <value.top_img className="absolute xl:w-2/5 md:inset-[20%] md:w-3/5" />
 
               <img src={value.img} className="w-full blur-[7px]" />
             </div>
 
-            <p className="px-[30px] py-[20px] font-work-sans text-[22px] font-semibold capitalize leading-[31px] xl:px-5 xl:py-[15px] xl:text-[18px] lg:p-5 lg:text-[16px] md:text-[14px] md:text-[16px]">
+            <p className="px-[30px] py-[20px] font-work-sans text-[22px] font-semibold capitalize leading-[31px] xl:px-5 xl:py-[15px] xl:text-[18px] lg:p-5 lg:text-[16px] md:text-[16px]">
               {value.titleName}
             </p>
           </div>

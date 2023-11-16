@@ -1,21 +1,21 @@
 import React from "react";
 import {
-  Discord,
-  Instagram,
-  Storefront,
-  Twitter,
-  Youtube,
+  DiscordIcon,
+  InstagramIcon,
+  StorefrontIcon,
+  TwitterIcon,
+  YoutubeIcon,
 } from "../assets/icons/Icons";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <footer className="mx-auto max-w-[1280px] bg-[#3B3B3B] px-[115px] py-[40px] xl:px-[50px] lg:px-[72px] md:m-0">
+    <footer className="mx-auto mt-auto max-w-[1280px] bg-[#3B3B3B] px-[115px] py-[40px] xl:px-[50px] lg:px-[72px] md:m-0">
       <div className="flex w-full justify-between xl:gap-[30px] lg:grid lg:grid-cols-1">
         <div className="flex grid-cols-2 justify-between gap-[40px] xl:w-3/5 xl:gap-[30px] lg:grid lg:w-[65%] lg:grid-cols-1 sm:grid sm:grid-cols-1">
           <div className="w-3/5 text-[#CCC] lg:w-full">
             <div className="flex items-center gap-3">
-              <Storefront className="lg:w-[28px]" />
+              <StorefrontIcon className="lg:w-[28px]" />
               <p className="font-space-mono text-[22px] font-bold not-italic text-white xl:text-[20px] lg:text-[18px]">
                 NFT Marketplace
               </p>
@@ -30,24 +30,20 @@ const Footer = () => {
             </p>
 
             <div className="flex items-center gap-[10px]">
-              <a href="#">
-                <Discord className="lg:w-[30px]" />
+              <a href="/">
+                <DiscordIcon className="lg:w-[30px]" />
               </a>
 
-              <a href="#">
-                <Youtube className="lg:w-[30px]" />
+              <a href="/">
+                <YoutubeIcon className="lg:w-[30px]" />
               </a>
 
-              <a href="#">
-                <Twitter className="lg:w-[30px]" />
+              <a href="/">
+                <TwitterIcon className="lg:w-[30px]" />
               </a>
 
-              <a href="#">
-                {/* <img
-                  className="lg:w-[30px]"
-                  src="./src/assets/icons/instagram_logo.svg"
-                /> */}
-                <Instagram />
+              <a href="/">
+                <InstagramIcon />
               </a>
             </div>
           </div>
@@ -58,21 +54,21 @@ const Footer = () => {
             </p>
             <div className="grid grid-cols-1">
               <Link
-                to="/1"
+                to="/market-place"
                 className="mt-[25px] font-work-sans text-[16px] font-normal not-italic text-[#858584] lg:text-[14px]"
               >
                 Marketplace
               </Link>
 
               <Link
-                to="/2"
+                to="/rankings"
                 className="my-[20px] font-work-sans text-[16px] font-normal not-italic text-[#858584] lg:text-[14px]"
               >
                 Rankings
               </Link>
 
               <Link
-                to="/3"
+                to="/connect-wallet"
                 className="font-work-sans text-[16px] font-normal not-italic text-[#858584] lg:text-[14px]"
               >
                 Connect a wallet

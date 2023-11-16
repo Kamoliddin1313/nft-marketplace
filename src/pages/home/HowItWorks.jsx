@@ -1,6 +1,6 @@
 import React from "react";
 import { howItWorks } from "../../contents/index";
-import { EnvelopeSimple } from "../../assets/icons/Icons";
+import { EnvelopeSimpleIcon } from "../../assets/icons/Icons";
 const HowItWorks = () => {
   return (
     <div>
@@ -67,7 +67,7 @@ const HowItWorks = () => {
               />
 
               <button className="absolute right-0 flex items-center justify-center gap-3 rounded-[20px] bg-[#A259FF]  px-[30px] py-[16px] xl:px-[20px] xl:py-[12px] lg:sticky lg:w-full lg:text-[14px] sm:px-[20px]">
-                <EnvelopeSimple />
+                <EnvelopeSimpleIcon />
                 Subscribe
               </button>
             </form>

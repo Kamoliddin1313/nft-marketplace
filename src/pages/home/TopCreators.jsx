@@ -1,6 +1,6 @@
 import React from "react";
 import { topCreators } from "../../contents/index";
-import { RocketLaunchBlue } from "../../assets/icons/Icons";
+import { RocketLaunchBlueIcon } from "../../assets/icons/Icons";
 const TopCreators = () => {
   return (
     <div>
@@ -16,7 +16,7 @@ const TopCreators = () => {
         </div>
 
         <button className="mt-[30px] flex h-[60px] items-center justify-center gap-3 rounded-[20px] border-[2px] border-solid border-[#A259FF] px-[50px] font-work-sans text-[16px] font-semibold leading-[22px] xl:px-[30px] lg:px-[50px] sm:mx-auto sm:h-[60px] sm:w-full">
-          <RocketLaunchBlue />
+          <RocketLaunchBlueIcon />
           View Rankings
         </button>
       </section>

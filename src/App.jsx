@@ -7,16 +7,18 @@ import Mainlayout from "./components/layout/Mainlayout";
 import MarketPlace from "./pages/marketPlace/MarketPlace";
 import NFT from "./pages/nft/NFT";
 import Rankings from "./pages/rankings/Rankings";
+import SignUp from "./pages/signUp/SignUp";
 
 function App() {
   return (
     <Routes>
       <Route path="/" element={<Mainlayout />}>
-        <Route index path="/home" element={<Home />} />
+        <Route index path="/" element={<Home />} />
         <Route path="/market-place" element={<MarketPlace />} />
+        <Route path="/sign-up" element={<SignUp />} />
         <Route path="/nft" element={<NFT />} />
         <Route path="/rankings" element={<Rankings />} />
-        <Route path="/createAccount" element={<CreateAccount />} />
+        <Route path="/create-account" element={<CreateAccount />} />
         <Route path="/connect-wallet" element={<ConnectWallet />} />
         <Route path="/artist" element={<Artist />} />
         <Route

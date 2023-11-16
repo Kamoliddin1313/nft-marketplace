@@ -1,21 +1,21 @@
 import React from "react";
-import { RocketLaunch } from "../../assets/icons/Icons";
+import { RocketLaunchIcon } from "../../assets/icons/Icons";
 
 const HomeHeader = () => {
   return (
-    <section className="mx-auto grid max-w-[1280px] grid-cols-2 gap-[30px] px-[115px] py-[80px]  lg:px-[72px] lg:py-[40px] md:grid-cols-1 md:px-[30px] sm:grid-cols-1 sm:px-[60px]">
+    <section className="mx-auto grid max-w-[1280px] grid-cols-2 items-start gap-[30px] px-[115px] py-[80px]  lg:px-[72px] lg:py-[40px] md:grid-cols-1 md:px-[30px] sm:grid-cols-1 sm:px-[60px]">
       <div>
         <h1 className="font-work-sans text-[67px] font-semibold capitalize leading-[73px] xl:text-[50px] xl:leading-[62px] lg:text-[38px] lg:leading-[46px] md:text-[28px] md:leading-[39px]">
           Discover digital art & Collect NFTs
         </h1>
 
-        <p className="mt-5 font-work-sans text-[22px] font-normal capitalize leading-[35px] xl:mt-3 xl:text-[18px] xl:leading-[30px] lg:text-[16px] lg:leading-[22px] md:text-[16px]">
+        <p className="mt-5 font-work-sans text-[22px] capitalize leading-[35px] xl:mt-3 xl:text-[18px] xl:leading-[30px] lg:text-[16px] lg:leading-[22px] md:text-[16px]">
           NFT marketplace UI created with Anima for Figma. Collect, buy and sell
           art from more than 20k NFT artists.
         </p>
 
         <button className="my-[30px] flex h-[60px] items-center justify-center gap-3 rounded-[20px] bg-[#A259FF] px-[50px] text-[16px] xl:my-[25px] xl:px-8 xl:py-3 lg:my-5 lg:px-[50px] md:my-10 md:w-full sm:mx-auto sm:h-[60px] sm:w-full">
-          <RocketLaunch />
+          <RocketLaunchIcon />
           Get Started
         </button>
 
@@ -49,13 +49,13 @@ const HomeHeader = () => {
         </div>
       </div>
 
-      <div className="rounded-[24px] bg-[#3B3B3B] xl:h-[420px]">
+      <div className="rounded-[24px] bg-[#3B3B3B]">
         <img
           src="./src/assets/images/imagePlaceholder.png"
           alt="img"
           className="w-full xl:h-[75%]"
         />
-        <div className="p-[20px] font-work-sans capitalize">
+        <div className="items-start p-[20px] font-work-sans capitalize">
           <p className="text-[22px] font-semibold	leading-[31px]">
             Space Walking
           </p>

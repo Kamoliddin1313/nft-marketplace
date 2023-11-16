@@ -1,3 +1,4 @@
+import { a1, a2, a3, a4, a5, a6, a7, a8 } from "../assets/icons/Icons";
 export const trendingCollection = [
   {
     id: 1,
@@ -115,50 +116,58 @@ export const topCreators = [
 export const browseCategories = [
   {
     id: 1,
+    top_img: a1,
     img: "./src/assets/images/browse_categories/avatarImg1.png",
-    top_img: "./src/assets/icons/paint_brush.svg",
+    // top_img: "./src/assets/icons/paint_brush.svg",
     titleName: "art",
   },
   {
     id: 2,
+    top_img: a2,
     img: "./src/assets/images/browse_categories/avatarImg2.png",
-    top_img: "./src/assets/icons/swatches.svg",
+    // top_img: "./src/assets/icons/swatches.svg",
     titleName: "Collectibles",
   },
   {
     id: 3,
+    top_img: a3,
     img: "./src/assets/images/browse_categories/avatarImg3.png",
-    top_img: "./src/assets/icons/music_notes.svg",
+    // top_img: "./src/assets/icons/music_notes.svg",
     titleName: "Music",
   },
   {
     id: 4,
+    top_img: a4,
     img: "./src/assets/images/browse_categories/avatarImg4.png",
-    top_img: "./src/assets/icons/camera.svg",
+    // top_img: "./src/assets/icons/camera.svg",
     titleName: "Photography",
   },
   {
     id: 5,
+    top_img: a5,
     img: "./src/assets/images/browse_categories/avatarImg5.png",
-    top_img: "./src/assets/icons/video_camera.svg",
+    // top_img: "./src/assets/icons/video_camera.svg",
     titleName: "Video",
   },
   {
     id: 6,
+    top_img: a6,
     img: "./src/assets/images/browse_categories/avatarImg6.png",
-    top_img: "./src/assets/icons/magic_wand.svg",
+    // top_img: "./src/assets/icons/magic_wand.svg",
     titleName: "Utility",
   },
   {
     id: 7,
+    top_img: a7,
     img: "./src/assets/images/browse_categories/avatarImg7.png",
-    top_img: "./src/assets/icons/basketball.svg",
+    // top_img: "./src/assets/icons/basketball.svg",
     titleName: "Sport",
   },
   {
     id: 8,
+    top_img: a8,
     img: "./src/assets/images/browse_categories/avatarImg8.png",
-    top_img: "./src/assets/icons/planet.svg",
+    // top_img: "./src/assets/icons/planet.svg",
     titleName: "Virtual Worlds",
   },
 ];

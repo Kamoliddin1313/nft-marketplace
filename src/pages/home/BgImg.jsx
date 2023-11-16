@@ -1,10 +1,10 @@
 import React from "react";
-import { SeeImg } from "../../assets/icons/Icons";
+import { SeeImgIcon } from "../../assets/icons/Icons";
 
 const BgImg = () => {
   return (
-    <section className="h-[640px] bg-[linear-gradient(rgba(162,89,255,0.00)0%,#A259FF_100%),url('./src/assets/images/bg-img.png')] bg-cover bg-center bg-no-repeat lg:h-[500px]">
-      <div className="mx-auto mb-auto flex  h-[100%] w-full max-w-[1280px] items-end justify-between px-[115px] py-[60px] lg:px-[72px] md:grid md:grid-cols-1 md:px-[30px] sm:grid sm:grid-cols-1">
+    <section className="mx-auto h-[640px] bg-[linear-gradient(rgba(162,89,255,0.00)0%,#A259FF_100%),url('./src/assets/images/bg-img.png')] bg-cover bg-center bg-no-repeat lg:h-[500px]">
+      <div className="mb-auto flex h-[100%] w-full items-end justify-between px-[115px] py-[60px] lg:px-[72px] md:grid md:grid-cols-1 md:px-[30px] sm:grid sm:grid-cols-1">
         <div className="sm:ml-0">
           <button className="flex items-center gap-3 rounded-[20px] bg-[#3B3B3B] px-[20px] py-[10px] sm:mx-auto">
             <img
@@ -23,7 +23,7 @@ const BgImg = () => {
           </h1>
 
           <button className="flex items-center justify-center gap-3 rounded-[20px] bg-white px-[50px] py-[22px] font-work-sans text-[16px] font-semibold text-[#2B2B2B] md:mb-[30px] md:w-full sm:mx-auto">
-            <SeeImg />
+            <SeeImgIcon />
             See All
           </button>
         </div>
